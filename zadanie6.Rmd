@@ -1,0 +1,79 @@
+---
+title: "Avengers: Infinity War"
+author: "Agnieszka Szulc"
+date: "30 maja 2018"
+output: html_document
+df_print: paged
+theme: spacelab
+highlight: espresso
+---
+#### Avengers: Infinity War
+
+
+## Krótki opis filmu:
+ *"Potężny Thanos zbiera Kamienie Nieskończoności w celu narzucenia swojej woli wszystkim istnieniom we wszechświecie. Tylko drużyna superbohaterów znanych jako Avengers może go powstrzymać"* - opis zaczerpnięty ze strony www.filmweb.pl
+ 
+Link: http://www.filmweb.pl/film/Avengers%3A+Wojna+bez+granic-2018-693758
+
+## Plakat promujący film:
+![](7839647.6.jpg)
+ 
+## Bohaterowie:
+ - IronMan
+ - Thor
+ - Kapitan Ameryka
+ - Czarna Wdowa
+ - Vision
+ - Bruce Banner /  Hulk
+ - Doctor Strange
+ - Peter Quill / Star Lord
+ - War Machine
+ - Spiderman
+ - T'Challa / Czarna Pantera
+ - Gamora
+ - Nebula
+ - Wanda Maximoff / Scarlet Witch
+ - Zimowy żołnierz
+ - Heimdall
+ - Okoye
+ - Eitiri
+ - Wong
+ - Mantis
+ - Drax
+ - Rocket
+ - Groot
+
+## Antagoniści
+ 
+ - Thanos i jego podwładni
+ - Loki (SPOILER: chociaż w tym filmie nie zdążył nim być)
+ 
+## Ogólne informacje o filmie
+
+| Reżyseria | Scenariusz | Gatunek | Data premier |
+|-----------|------------|---------|--------------|
+| A. Russo  |  C. Markus | Sci- Fi | 23.04.18 (USA)      
+| J. Russo  | S. McFeely | Akcja   | 26.05.18 (PL)|
+ 
+#### Film zarobił: 	**$1 909 441 638**
+
+
+## 3 ciekawostki oraz cytat
+ 
+ 1. Widzowie po raz pierwszy mogą zobaczyć pajęczy zmysł Spidermana
+ 2. Podczas ustalania planu pokonania Thanosa, Drax nieoczekiwanie proponuje aby go pokonać…tańcem. Jest to aluzja do pierwszej odsłony Strażników, w której Starlord zaczął tańczyć przed Ronanem, aby go rozproszyć
+ 3. Młody Groot gra na swojej konsoli w prawdziwą grę pod tytułem "Defender"
+ 
+`"No resurection this time"` - nawiązanie przez Thanosa do śmierci Lokiego w Dark World
+
+### Koniec tekstu
+```{r}
+library(ggplot2)
+
+ggplot(data = mpg) + 
+  geom_histogram(mapping = aes(displ), binwidth = 0.2 ) +
+  labs(title = "Rozkład pojemności silnika samochodów", x = "pojemność silnika", y = "liczba")
+```
+
+  
+
